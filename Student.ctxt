@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ The\ humble\ university\ student\ studying\ from\ their\ bedroom,\ gets\ distracted\ easily\ by\ thoughts\ of\r\n\ binging\ Anime,\ playing\ video\ games\ and\ not\ touching\ grass.\ Has\ a\ collection\ of\ ugly\ socks\ that\r\n\ radiate\ boredom.\ Name\:\ @N\ Y\ 1/08/2022\r\n\ \r\n\ Spites\ -\ Cute\ Girl\ (https\://www.gameart2d.com/cute-girl-free-sprites.html)\r\n\ \r\n\ Sounds\ -\ pickup.mp3\ -\ N\ Y\r\n
+comment1.params=
+comment1.target=Student()
+comment1.text=\r\n\ Constructor\ Student\ -\ Contains\ initial\ values\ for\ Student\ class\ object\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Method\ act\ -\ Methods\ &\ commands\ to\ be\ initiated\ per\ act\ cycle\r\n
+comment3.params=speed
+comment3.target=void\ checkKeyPress(int)
+comment3.text=\r\n\ Method\ checkKeyPress\ -\ Moves\ the\ player\ up\ down\ left\ or\ right\ when\ the\ respective\ keys\ are\r\n\ pressed\ Code\ Learned\ from\ Module\ 4-2\:\ Moving\ and\ Removing\ Objects\r\n
+comment4.params=
+comment4.target=void\ checkSock()
+comment4.text=\r\n\ Method\ checkSocks\ -\ causes\ socks\ to\ be\ "collected"\ when\ touched\ by\ the\ student,\ increasing\r\n\ score\ by\ points\ value\ specified\ in\ Sock\ object\ class\ (Learned\ from\ Module\ 4-3\:\ Abtraction\ and\r\n\ encapsulation)\r\n
+comment5.params=
+comment5.target=void\ runAnimation()
+comment5.text=\r\n\ Method\ runAnimation\ -\ Cycles\ between\ walk1\ and\ walk2\ sprites\ (Learned\ from\ SCU\ Explorer\ 5)\r\n
+numComments=6

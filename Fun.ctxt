@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=Fun
+comment0.text=\r\n\ A\ living,\ breathing\ embodiment\ of\ fun.\ Contains\ many\ distracting\ goodies\ inside.\ Vaguely\r\n\ reminiscant\ of\ the\ monster\ from\ Ski-Free\ in\ its\ lazily\ drawn\ appearance.\ Threateningly\ brandishes\r\n\ an\ original\ 1991\ era\ Super\ Pretendo\ controller\ for\ some\ reason.\ Chases\ after\ the\ student\ to\r\n\ distract\ them\ from\ their\ important\ university\ obligations\r\n\r\n\ Name\:\ @N\ Y\ @1/08/2022\r\n\ \r\n\ Sprites\:\ fun.png\ -\ created\ by\ N\ Y\r\n\ \r\n\ Sounds\:\ deathsound.mp3\ -\ Created\ by\ N\ Y\r\n\r\n\ Notes\:\ Command\ used\ to\ pass\ coordinates\ for\ player\ to\ enemy\ learned\ from\:\r\n\ https\://www.greenfoot.org/topics/8561/0\r\n\r\n
+comment1.params=
+comment1.target=Fun()
+comment1.text=\r\n\ Constructor\ Student\ -\ Contains\ initial\ values\ for\ Fun\ class\ object\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Method\ act\ -\ Methods\ &\ commands\ to\ be\ initiated\ per\ act\ cycle\r\n
+comment3.params=max\ min
+comment3.target=void\ movement(int,\ int)
+comment3.text=\r\n\ Method\ movement\ -\ Enemy\ will\ move\ a\ random\ number\ between\ max\ and\ min\ int\ variables\r\n
+comment4.params=p\ speed
+comment4.target=void\ dashToStudent(int,\ int)
+comment4.text=\r\n\ dashToStudent\ -\ Enemy\ will\ dash\ in\ the\ students\ direction\ every\ p\ out\ of\ 100\ act\ cycles\ (p\ \=\r\n\ percentage)\r\n
+comment5.params=p\ max\ min
+comment5.target=void\ randomTurn(int,\ int,\ int)
+comment5.text=\r\n\ randomTurn\ -\ Enemy\ will\ randomly\ turn\ every\ p\ out\ of\ 100\ act\ cycles\ (p\ \=\ percentage)\ with\ a\r\n\ range\ of\ max\ and\ min\r\n
+comment6.params=max\ min
+comment6.target=void\ randomAngle(int,\ int)
+comment6.text=\r\n\ randomAngle\ -\ Turns\ a\ random\ angle\ between\ max\ and\ min\ degrees\r\n
+comment7.params=speed
+comment7.target=void\ checkEdge(int)
+comment7.text=\r\n\ checkEdge\ -\ Enemy\ will\ turn\ away\ from\ the\ edge\ and\ dash\ toward\ the\ Student\ to\ the\ integer\r\n\ value\ of\ speed\r\n
+comment8.params=
+comment8.target=void\ lookForStudent()
+comment8.text=\r\n\ lookForStudent\ -\ Enemy\ will\ cause\ student\ to\ lose\ a\ life\ if\ collision\ is\ detected\r\n
+numComments=9
